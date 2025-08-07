@@ -36,18 +36,19 @@ def ask_consultant(question: str):
 
 
 if __name__ == "__main__":
+    #Modify the questions as per your documents.
     # --- Test Case 1: Question that can be answered from context ---
-    question_1 = "How much should a small business budget for Google Ads?"
+    question_1 = ""
     ask_consultant(question_1)
 
     print("\n\n")
 
     # --- Test Case 2: Another question that can be answered ---
-    question_2 = "What is a landing page and why is it important?"
+    question_2 = ""
     ask_consultant(question_2)
     
     print("\n\n")
 
     # --- Test Case 3: Question that CANNOT be answered from context ---
-    question_3 = "What are the best strategies for email marketing?"
+    question_3 = ""
     ask_consultant(question_3)

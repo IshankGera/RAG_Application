@@ -19,31 +19,31 @@ logger = logging.getLogger("ai_consultant")
 
 # --- Knowledge Base Articles ---
 ARTICLE_1 = """
-Article 1: Introduction to Google Ads for Small Business
+Article 1:
 
 """
 
 ARTICLE_2 = """
-Article 2: Understanding Meta (Facebook) Ad Campaigns
+Article 2: 
 
 """
 
 ARTICLE_3 = """
-Article 3: The Importance of Landing Pages
+Article 3: 
 """
 ARTICLE_4 = """
-Article 4: UrbanClap Case Study
+Article 4: 
 """
 KNOWLEDGE_BASE = [
-    Document(page_content=ARTICLE_1, metadata={"source": "Article 1: Introduction to Google Ads"}),
-    Document(page_content=ARTICLE_2, metadata={"source": "Article 2: Understanding Meta Ads"}),
-    Document(page_content=ARTICLE_3, metadata={"source": "Article 3: The Importance of Landing Pages"}),
-    Document(page_content=ARTICLE_4, metadata={"source": "UrbanClap Case Study"})
+    Document(page_content=ARTICLE_1, metadata={"source": "Article 1: "}),
+    Document(page_content=ARTICLE_2, metadata={"source": "Article 2: "}),
+    Document(page_content=ARTICLE_3, metadata={"source": "Article 3: "}),
+    Document(page_content=ARTICLE_4, metadata={"source": "Article 4: "})
 ]
 
 app = FastAPI(
-    title="AI Marketing Consultant API",
-    description="A RAG-powered API to answer marketing questions based on a fixed knowledge base."
+    title="AI Consultant API",
+    description="A RAG-powered API to answer questions based on a fixed knowledge base."
 )
 
 # Configure CORS
