@@ -18,7 +18,7 @@ A FastAPI microservice that acts as an AI marketing consultant, answering questi
 
 1. **Navigate to the folder:**
    ```bash
-   cd part1_langchain
+   cd RAG_Application
    ```
 2. **Create & activate a virtual environment:**
    - **Windows:**
